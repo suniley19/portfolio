@@ -3,46 +3,143 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sunil Gharti</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 40px;
-            background: #f5f5f5;
-            text-align: center;
-        }
-        .card {
-            max-width: 600px;
-            margin: auto;
-            background: white;
-            padding: 30px;
-            border-radius: 12px;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-        }
-        h1 {
-            margin-bottom: 10px;
-        }
-        a {
-            color: #007acc;
-            text-decoration: none;
-            font-weight: bold;
-        }
-    </style>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-<div class="card">
-    <h1>Welcome to My Portfolio</h1>
-    <p>Hi, I'm <strong>Sunil</strong>. I'm an international student interested in robotics, AI, programming, and web development.</p>
-
-    <p>This is my simple GitHub Pages intro page.</p>
-
-    <p>
-        <a href="https://github.com/your-username" target="_blank">
-            Visit my GitHub →
-        </a>
-    </p>
-</div>
-
+    <nav class="navigation">
+        <a href="#info" style="text-decoration: none; color: black;"><div class="nav_elements" onclick="selector(0)">
+            <img style="height: 32px; margin-right: -2px; margin-top: -3px;" src="image/homeicon.png" alt="">Home</div></a>
+        <a href="#about" style="text-decoration: none; color: black;"><div class="nav_elements" onclick="selector(1)" style="padding: 4px 20px;">
+            <img src="image/idicon.png" alt="">About</div></a>
+        <a href="#featuredwork" style="text-decoration: none; color: black;"><div class="nav_elements" onclick="selector(2)">
+            <img src="image/fileicon.png" alt="">Projects</div></a>
+        <a href="#featureandservices" style="text-decoration: none; color: black;"><div class="nav_elements" onclick="selector(3)">
+            <img src="image/unknownicon.png" alt="">Services</div></a>
+        <a href="#info" style="text-decoration: none; color: black;"><div class="nav_elements" onclick="selector(4)">
+            <img src="image/envelopicon.avif" alt="">Contact</div></a>
+    </nav>
+    <section class="info" id="info">
+        <div class="left">
+            <div class="header">
+                Hi, I'm spiderman
+            </div>
+            <div class="work">
+                UI/UX Designer
+            </div>
+            <div class="aboutme">
+                Hi, I’m spiderman — a curious mind who loves turning ideas into stunning web designs! 💻✨ I get excited by clean code, creative layouts, and making things come alive with animation. Whether it’s crafting a sleek portfolio or experimenting with wild new effects, I’m always ready to learn and build. So, what are we creating today? 🚀
+            </div>
+            <div class="status">
+                <div class="brampton">📍Based in Brampton</div>
+                <div class="available">💼Available now</div>
+            </div>
+            <div class="bookme">
+                <button class="hire">🎯Hire Me</button>
+                <button class="cv">📋Download CV</button>
+            </div>
+            <div class="follow"> Follow me: 
+                <img src="image/giticon.png" alt="">
+                <img src="image/discordicon.png" alt="">
+                <img src="image/linkedinicon.png" alt="">
+                <img src="image/instagramicon.png" alt="">
+            </div>
+        </div>
+        <div class="right">
+            <img src="image/spiderman.png" alt="">
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="left">
+            <div class="header">Building Meaningful<br>Digital Experiences</div>
+            <div class="information">I am confident in my coding skills and enjoy tackling challenging problems. I can quickly learn new technologies and apply them effectively. Writing clean and efficient code is something I take pride in.<br><br>I pay attention to details and make sure my projects run smoothly. I enjoy collaborating with others and sharing solutions. Coding is my passion, and I always strive to get better.</div>
+            <div class="what">What Drives Me</div>
+            <div class="reason">
+                <div class="okay">language</div>
+                <div class="okay">education</div>
+                <div class="okay">projects</div>
+            </div>
+        </div>
+        <div class="right">
+            <img src="image/spidermanpp.jpg" alt="">
+        </div>
+    </section>
+    <section class="featuredwork" id="featuredwork">
+        <div class="header">
+            Featured work
+        </div>
+        <div class="underline"></div>
+        <div class="discription">
+            A showcase of my recent projects demonstration expertise in full-stack development, modern frameworks, and creative problem-solving
+        </div>
+        <div class="works">
+            <div class="projects">
+                <img src="image/thumbnail1.jpg" alt="">
+                <span>Project-1</span>
+                <p>Modern onlune store with product filtering, vart, and payment system.</p>
+                <button>Watch</button>
+            </div>
+            <div class="projects">
+                <img src="image/thumbnail2.jpg" alt="">
+                <span>Project-2</span>
+                <p>Modern onlune store with product filtering, vart, and payment system.</p>
+                <button>Watch</button>
+            </div>
+            <div class="projects">
+                <img src="image/thumbnail3.jpg" alt="">
+                <span>Project-3</span>
+                <p>Modern onlune store with product filtering, vart, and payment system.</p>
+                <button>Watch</button>
+            </div>
+            <div class="projects"> 
+                <img src="image/thumbnail4.jpg" alt="">
+                <span>Project-4</span>
+                <p>Modern onlune store with product filtering, vart, and payment system.</p>
+                <button>Watch</button>
+            </div>
+            <div class="projects">
+                <img src="image/thumbnail5.jpg" alt="">
+                <span>Project-</span>
+                <p>Modern onlune store with product filtering, vart, and payment system.</p>
+                <button>Watch</button>
+            </div>
+            <div class="projects">
+                <img src="image/thumbnail6.jpg" alt="">
+                <span>Project-3</span>
+                <p>Modern onlune store with product filtering, vart, and payment system.</p>
+                <button>Watch</button>
+            </div>
+        </div>
+    </section>
+    <section class="featureandservices" id="featureandservices">
+        <div class="header">
+            Our Feature and Services
+        </div>
+        <div class="underline"></div>
+        <div class="services">
+            <div class="servicelist">
+                <div class="hover-fill">
+                    
+                </div>
+                Web Development
+            </div>
+            <div class="servicelist">App Development</div>
+            <div class="servicelist">Digital Marketing</div>
+            <div class="servicelist">Email Marketing</div>
+        </div>
+    </section>
+    <script>
+        function selector(i) {
+            let classes= document.querySelectorAll('.nav_elements');
+            classes.forEach((value, index) => {
+                if(value.classList.contains('nav_select')){
+                    value.classList.remove('nav_select');
+                }
+            })
+            classes[i].classList.add('nav_select');
+        }
+    </script>
 </body>
+
 </html>
+
